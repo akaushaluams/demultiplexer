@@ -48,7 +48,7 @@ echo "Processing input file: ${INPUT_FILE}" >> $LOG_FILE
 echo "Using index file: ${INDEX_FILE}" >> $LOG_FILE
 echo "Generating output file: ${OUTPUT_FILE}" >> $LOG_FILE
 
-htseq_parser.bin -i ${INPUT_FILE} -ix ${INDEX_FILE} -o ${OUTPUT_FILE}
+python extract_reads.py -i ${INPUT_FILE} -ix ${INDEX_FILE} -o ${OUTPUT_FILE}
 EOF
 )
     else
@@ -68,7 +68,7 @@ echo "Processing input file: ${INPUT_FILE}" >> $LOG_FILE
 echo "Using index file: ${INDEX_FILE}" >> $LOG_FILE
 echo "Generating output file: ${OUTPUT_FILE}" >> $LOG_FILE
 
-htseq_parser.bin -i ${INPUT_FILE} -ix ${INDEX_FILE} -o ${OUTPUT_FILE}
+python extract_reads.py -i ${INPUT_FILE} -ix ${INDEX_FILE} -o ${OUTPUT_FILE}
 EOF
 )
     fi
