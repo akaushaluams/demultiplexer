@@ -37,7 +37,7 @@ Submit jobs sequentially to demultiplex the reads using index pairs.
 bash scripts/submit_sequential_log.sh START END INPUT_PREFIX INDEX_FILE OUTPUT_PREFIX LOG_FILE
 
 START: Starting number for the sequence of files. By default it will be 1.
-END: Ending number for the sequence of files.
+END: Ending number for the sequence of files. e.g. 15
 INPUT_PREFIX: Prefix of the input FASTQ file paths.
 INDEX_FILE: Path to the index file containing barcode pairs.
 OUTPUT_PREFIX: Prefix of the output file paths.
