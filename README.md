@@ -78,26 +78,7 @@ local_demultiplexer/
 ## .gitignore
 
 ```
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
 
-# Virtual environment
-.venv/
-.env
-
-# Log files
-*.log
-
-# Data files
-*.fastq
-*.fastq.gz
-
-# Editor files
-*.swp
-*~
-.DS_Store
 ```
 
 ## Setup.py
