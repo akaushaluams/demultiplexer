@@ -26,7 +26,7 @@ pip install -r requirements.txt
 Split large `undetermined.fastq.R1.gz` and `undetermined.fastq.R2.gz` files into smaller FASTQ files for efficient processing.
 
 ```bash
-bash scripts/split_fastq.sh input_folder output_folder
+bash scripts/split_fastq.sh undetermined...R1.fastq.gz 15
 ```
 
 ### Step 2: Demultiplex Reads
