@@ -34,11 +34,19 @@ bash scripts/split_fastq.sh undetermined...R1.fastq.gz 15
 Submit jobs sequentially to demultiplex the reads using index pairs.
 
 ```bash
-bash scripts/submit_sequential_log.sh 1 16 \
-    /path/to/input_prefix \
-    /path/to/index_file.txt \
-    /path/to/output_prefix \
-    process_log.txt
+bash scripts/submit_sequential_log.sh START END INPUT_PREFIX INDEX_FILE OUTPUT_PREFIX LOG_FILE
+
+START: Starting number for the sequence of files.
+
+END: Ending number for the sequence of files.
+
+INPUT_PREFIX: Prefix of the input FASTQ file paths.
+
+INDEX_FILE: Path to the index file containing barcode pairs.
+
+OUTPUT_PREFIX: Prefix of the output file paths.
+
+LOG_FILE: Path to the log file to record processing information.
 ```
 
 ### Step 3: Concatenate and Validate FASTQ Files
