@@ -70,8 +70,14 @@ local_demultiplexer/
 │-- tests/
 │   │-- test_extract_reads.py
 │   │-- test_concatenate_fastq.py
+│   │-- test_data/
+│       │-- test.fastq.gz
+│       │-- index_pairs.txt
 │-- docs/
 │   │-- README.md
+│-- .github/
+│   │-- workflows/
+│       │-- main.yml
 │-- .gitignore
 │-- setup.py
 │-- requirements.txt
