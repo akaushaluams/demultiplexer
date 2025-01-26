@@ -183,5 +183,5 @@ Contributions are welcome! Please submit pull requests or open issues for sugges
 
 ## Contact
 
-For any inquiries, please contact [akhileshkaushal@gmail.com].
+For any inquiries, please contact akhileshkaushal@gmail.com.
 
