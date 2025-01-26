@@ -1,2 +1,2 @@
 HTSeq
-gzip
+conda install conda-forge::gzip
