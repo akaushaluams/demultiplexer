@@ -34,7 +34,11 @@ bash scripts/split_fastq.sh input_folder output_folder
 Submit jobs sequentially to demultiplex the reads using index pairs.
 
 ```bash
-bash scripts/submit_sequential_log.sh job_list.txt
+bash scripts/process_reads.sh 1 16 \
+    /path/to/input_prefix \
+    /path/to/index_file.txt \
+    /path/to/output_prefix \
+    process_log.txt
 ```
 
 ### Step 3: Concatenate and Validate FASTQ Files
