@@ -1,6 +1,6 @@
 # Local Demultiplexer
 
-This repository provides tools for processing and demultiplexing FASTQ files based on index pairs and concatenating sequencing reads efficiently.
+This repository provides tools for processing and demultiplexing FASTQ files based on index pairs and concatenating sequencing reads efficiently. Detail about this pipeline is hosted here https://akhileshkaushal.com/wp-content/uploads/2025/01/demux-1.pdf
 
 ## Features
 
